@@ -16,6 +16,8 @@ use Fragen\Singleton;
  * Trait GHU_Trait
  */
 trait GHU_Trait {
+	public $caller;
+
 	/**
 	 * Checks to see if a heartbeat is resulting in activity.
 	 *

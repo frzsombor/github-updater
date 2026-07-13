@@ -36,6 +36,8 @@ if ( ! defined( 'WPINC' ) ) {
  * @author  Bjorn Wijers
  */
 class Bitbucket_Server_API extends Bitbucket_API {
+	public $caller;
+
 	/**
 	 * Constructor.
 	 *

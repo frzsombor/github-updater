@@ -24,6 +24,8 @@ WP_CLI::add_command( 'github-updater', get_class( $cli ) );
  * Class GitHub_Updater_CLI
  */
 class CLI extends WP_CLI_Command {
+	public $caller;
+
 	/**
 	 * Clear GitHub Updater cache.
 	 *

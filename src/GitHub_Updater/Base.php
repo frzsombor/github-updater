@@ -32,6 +32,9 @@ if ( ! defined( 'WPINC' ) ) {
 class Base {
 	use GHU_Trait, Basic_Auth_Loader;
 
+	public $plugin;
+	public $theme;
+
 	/**
 	 * Variable for holding extra theme and plugin headers.
 	 *

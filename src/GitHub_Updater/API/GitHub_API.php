@@ -29,6 +29,8 @@ if ( ! defined( 'WPINC' ) ) {
  * @author  Andy Fragen
  */
 class GitHub_API extends API implements API_Interface {
+	public $caller;
+
 	/**
 	 * Constructor.
 	 *

@@ -17,6 +17,8 @@ use Fragen\GitHub_Updater\Readme_Parser as Readme_Parser;
  * Trait API_Common
  */
 trait API_Common {
+	public $type;
+
 	/**
 	 * Holds loose class method name.
 	 *

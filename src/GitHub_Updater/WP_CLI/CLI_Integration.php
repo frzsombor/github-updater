@@ -25,6 +25,8 @@ WP_CLI::add_command( 'theme branch-switch', [ $class, 'branch_switch' ] );
  * Class CLI_Integration
  */
 class CLI_Integration extends WP_CLI_Command {
+	public $caller;
+
 	/**
 	 * CLI_Integration constructor.
 	 */

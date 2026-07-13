@@ -29,6 +29,8 @@ if ( ! defined( 'WPINC' ) ) {
  * @author  Andy Fragen
  */
 class GitLab_API extends API implements API_Interface {
+	public $caller;
+
 	/**
 	 * Constructor.
 	 *
